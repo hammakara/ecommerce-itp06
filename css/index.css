@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.col-2 {
+    width: 50%;
+    min-width: 330px;
+}
+
+.col-2 h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 20px 0;
+}
+
+.col-2 p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.col-2 button {
+    border: none;
+    display: inline-block;
+    background-color: #ff7720;
+    color: white;
+    padding: 8px 30px;
+    border-radius: 30px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.col-2 button:hover {
+    background-color: #5a2c10;
+}
+.col-2 img{
+    width: 100%;
+    padding: 50px;
+
+}
+
+.small-container{
+    width: 100%;
+    max-width: 1080px;
+    margin:  auto;
+    padding: 0 25px;
+}
+.col-3{
+    width: 32%;
+    min-width: 270px;
+    margin-left: 10px;
+    transition: transform 0.3s;
+
+}
+.col-3 img{
+    width: 100%;
+}
+.col-3:hover{
+    transform: translateY(-5px);
+}
+
+.title{
+    text-align: center;
+    margin: 60px auto;
+    color: #555;
+}
+
+.col-4{
+    width: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 40px;
+    transition: transform 0.3s;
+}
+.col-4:hover{
+    transform: translateY(-5px);
+}
+.col-4 img{
+    width: 100%;
+}
+
+.col-4 h4{
+    color: #555;
+}
+.col-4 p{
+    font-size: 14px;
+}
+.rating i{
+    color: #ff7720;
+}
